@@ -3,12 +3,13 @@
 Library    SeleniumLibrary
 
 *** Variables ***
+${URL}  https://www.google.com/
 
 *** Test Cases ***
 
 Google Test    
 
-    Open Browser  https://www.google.com/  chrome
+    Open Browser  ${URL}  chrome
     Maximize Browser Window
     Title Should Be    Google
 
