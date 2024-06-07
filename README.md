@@ -23,11 +23,11 @@ To execute single test case use following command.
 
 ## Test Cases
 
-| Test Case Name       | Test steps       | Expected Results |
-|----------------------|------------------|------------------|
-| test_olx_login.robot | 1. Title<br/>2.  |                  |
-| Testcase 2           | Text             |                  |
-| Testcase 3           |                  |                  |
+| Test Case Name               | Test steps                                    | Expected Results              |
+|------------------------------|-----------------------------------------------|-------------------------------|
+| test_olx_login.robot         | Open Olx and login                            | Successful login              |
+| test_main_olx_category.robot | Open Olx and check categories on welcome page | Main categories are available |
+| test_search_olx.robot        | Open Olx and search for auction               | Search successfully performed |
 
 ## References
 
