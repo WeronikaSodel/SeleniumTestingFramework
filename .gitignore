@@ -3,3 +3,4 @@ output.html
 output.xml
 log.html
 *.png
+/logs/
